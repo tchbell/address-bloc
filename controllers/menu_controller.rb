@@ -84,7 +84,7 @@ class MenuController
             entry_submenu(entry)
         end
     end
-end
+
 
         def view_all_entries
             address_book.entries.each do |entry|
@@ -165,6 +165,7 @@ end
                 puts "#{file_name} is not a valid CSV file, please enter the name of a valid CSV file"
                 read_csv
             end
+        end
             
             
             def delete_entry(entry)
@@ -228,6 +229,6 @@ end
                         
                         
             
-        end
+end
         
         
